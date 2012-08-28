@@ -3,7 +3,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 
-<form:form action="/admin/bankaccounts/save" method="POST" modelAttribute="bankaccounts" enctype="multipart/form-data">
+<form:form action="/admin/bankaccounts/save" method="POST" modelAttribute="bankAccount" enctype="multipart/form-data">
 <h1>New Bank Account</h1></br>
 	<table>
 		<tr>

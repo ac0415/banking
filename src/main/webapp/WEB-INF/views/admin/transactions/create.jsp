@@ -7,7 +7,7 @@
 <h1>Create New Transaction</h1></br>
 	<table>
 		<tr>
-			<td>Bank Account:</td>
+			<label>Bank Account:</label>
 			<form:select path="account" items="${bankaccounts}" itemLabel="name" itemValue="id"/><br/>
 		</tr>
 		<tr>

@@ -20,7 +20,10 @@
 		</tr>
 		<tr>
 			<td>Birth Date</br>
-			<form:input path="birthDate"/></td>
+			<!-- <form:input path="birthDate"/> -->
+			<div class="input-append date" id="dp1" name="birthDate" data-date-format="yyyy-mm-dd">
+			  <input class="span2" size="16" type="text">
+			</div></td>
 		</tr>
 		<tr>
 			<td>Gender:</br>
@@ -30,3 +33,4 @@
 	</table>
 	<input type="submit" value="Submit"/>
 </form:form>
+

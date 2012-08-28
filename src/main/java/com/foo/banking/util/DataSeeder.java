@@ -18,13 +18,6 @@ import com.foo.banking.repository.TransactionRepository;
 @Component
 public class DataSeeder 
 {
-
-	@PostConstruct
-	public void run() 
-	{
-	}
-}
-
 	@Autowired
 	private BankAccountRepository bankAccountRepository;
 	
