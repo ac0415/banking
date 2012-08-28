@@ -93,4 +93,11 @@ public class Customer
 	public String toString() {
 		return getName();
 	}
+
+	public boolean isNew() {
+		if(id == null) 
+			return true;
+		else 
+			return false;
+	}
 }

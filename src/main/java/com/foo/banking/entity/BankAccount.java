@@ -100,4 +100,11 @@ public class BankAccount
 	public void setAvailableBalance(Double availableBalance) {
 		this.availableBalance = availableBalance;
 	}
+
+	public boolean isNew() {
+		if(id == null) 
+			return true;
+		else 
+			return false;
+	}
 }

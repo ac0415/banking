@@ -81,4 +81,10 @@ public class Transaction
 	public void setTransactionType(String transactionType) {
 		this.transactionType = transactionType;
 	}
+	public boolean isNew() {
+		if(id == null) 
+			return true;
+		else 
+			return false;
+	}
 }
