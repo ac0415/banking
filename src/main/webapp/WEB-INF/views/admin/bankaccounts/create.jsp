@@ -8,7 +8,8 @@
 	<table>
 		<tr>
 			<td>Account Number:</br>
-			<form:input path="accountNumber"/></td>
+			<form:input path="accountNumber"/></br>
+			<form:errors path="name" cssClass="error"/></td>
 		</tr>
 		<tr>
 			<td>Status:</br>
@@ -21,7 +22,8 @@
 		</tr>
 		<tr>
 			<td>Current Balance:</br>
-			<form:input path="currentBalance"/></td>
+			<form:input path="currentBalance"/></br>
+			<form:errors path="name" cssClass="error"/></td>
 		</tr>
 		<!-- <tr>
 			<td>Birth Date</br>

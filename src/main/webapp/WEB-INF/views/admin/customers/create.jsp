@@ -8,15 +8,18 @@
 	<table>
 		<tr>
 			<td>First Name:</br>
-			<form:input path="firstName"/></td>
+			<form:input path="firstName"/></br>
+			<form:errors path="name" cssClass="error"/></td>
 		</tr>
 		<tr>
 			<td>Middle Name:</br>
-			<form:input path="middleName"/></td>
+			<form:input path="middleName"/></br>
+			<form:errors path="name" cssClass="error"/></td>
 		</tr>
 		<tr>
 			<td>Last Name:</br>
-			<form:textarea path="lastName"/></td>
+			<form:textarea path="lastName"/></br>
+			<form:errors path="name" cssClass="error"/></td>
 		</tr>
 		<tr>
 			<td>Birth Date</br>

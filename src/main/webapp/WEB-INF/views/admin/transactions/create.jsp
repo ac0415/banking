@@ -16,11 +16,13 @@
 		</tr>
 		<tr>
 			<td>Amount</br>
-			<form:input path="amount"/></td>
+			<form:input path="amount"/></br>
+			<form:errors path="name" cssClass="error"/></td>
 		</tr>
 		<tr>
 			<td>Transaction Type:</br>
-			<form:input path="transactionType"/></td>
+			<form:input path="transactionType"/></br>
+			<form:errors path="name" cssClass="error"/></td>
 		</tr>
 	</table>
 	<input type="submit" value="Submit"/>
